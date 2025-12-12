@@ -8,7 +8,7 @@ function switchTab(viewId, navElement) {
 }
 
 // 2. Lógica de "Participação/Apoio" (Reframing positivo)
-let supported = false;
+let supported = false; 
 
 function handleEndorse() {
     const btn = document.getElementById('btn-endorse');
