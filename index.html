@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Elo USP - Comunidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+    
+    <header class="app-header">
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <div class="brand-logo">E</div>
+            <div>
+                <h1 style="font-size: 18px; font-weight: 800; margin:0;">Elo USP</h1>
+                <span style="font-size: 12px; color: var(--accent);">Vivência • Integração</span>
+            </div>
+        </div>
+        <button class="btn" aria-label="Mensagens">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+        </button>
+    </header>
+
+    <main class="app-content">
+
+        <section id="view-painel" class="view-section active">
+            
+            <h2 style="font-size: 20px; border: none; padding: 0; margin-bottom: 16px;">
+                Bom dia, <span style="color: var(--accent);">Estudante</span> ☀️
+            </h2>
+
+            <div class="scroll-horizontal">
+                <div class="card-mini highlight">
+                    <div class="emoji">🎓</div>
+                    <div>
+                        <strong>Mentoria BCI</strong>
+                        <span class="sub-text">Veteranos ajudando</span>
+                    </div>
+                </div>
+                <div class="card-mini">
+                    <div class="emoji">📚</div>
+                    <div>
+                        <strong>Grupo de Estudo</strong>
+                        <span class="sub-text">Biblioteca Central</span>
+                    </div>
+                </div>
+                <div class="card-mini">
+                    <div class="emoji">🧘‍♀️</div>
+                    <div>
+                        <strong>Yoga no Gramado</strong>
+                        <span class="sub-text">Hoje 17h</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget-grid">
+                <div class="card widget" style="margin:0;">
+                    <div class="widget-icon">🚌</div>
+                    <div class="widget-label">Próximo Circular</div>
+                    <div class="widget-value"><span class="status-dot" style="background:var(--ok)"></span>Chegando</div>
+                </div>
+                <div class="card widget" style="margin:0;">
+                    <div class="widget-icon">🥗</div>
+                    <div class="widget-label">Cardápio RU</div>
+                    <div class="widget-value" style="font-size:14px;">Feijoada Veg</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                    <h3 style="margin:0; font-size:16px;">Conquistas Coletivas</h3>
+                </div>
+                <div class="conquista-item">
+                    <div class="check-icon">✨</div>
+                    <div>
+                        <strong>Novo Microondas no CA</strong>
+                        <span style="display:block; font-size:12px; color:var(--muted);">Mobilização da turma da noite</span>
+                    </div>
+                </div>
+                <div class="conquista-item">
+                    <div class="check-icon">✨</div>
+                    <div>
+                        <strong>Luzes do Ponto de Ônibus</strong>
+                        <span style="display:block; font-size:12px; color:var(--muted);">Resolvido pela Prefeitura</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-mapa" class="view-section">
+            <h2 style="font-size: 20px; border: none; padding: 0; margin-bottom: 16px;">O que está rolando?</h2>
+            
+            <div class="map-container">
+                <div class="map-bg"></div>
+                
+                <div class="event-point" style="top: 30%; left: 40%;">🎵</div>
+                <div class="event-point" style="top: 60%; left: 70%;">📖</div>
+                
+                <div class="map-label">
+                    <span>Música ao Vivo</span>
+                    <small>Centro de Vivência</small>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 8px;">
+                <span class="badge active">Tudo</span>
+                <span class="badge">📖 Estudos</span>
+                <span class="badge">🎉 Eventos</span>
+                <span class="badge">🥪 Comida</span>
+            </div>
+
+            <div class="card" style="margin-top: 16px;">
+                <h3 style="margin:0 0 8px 0; font-size: 16px;">Criar Ponto de Encontro</h3>
+                <p style="font-size: 13px; color: var(--muted); margin:0;">
+                    Vai estudar na biblioteca ou tocar violão no gramado? Avise a galera e integre o campus.
+                </p>
+                <button class="btn-submit" style="margin-top: 12px; font-size: 14px;">Marcar Encontro</button>
+            </div>
+        </section>
+
+        <section id="view-voz" class="view-section">
+            <h2 style="font-size: 20px; border: none; padding: 0; margin-bottom: 16px;">Projetos & Ideias 💡</h2>
+            
+            <p style="font-size: 13px; color: var(--muted); margin-bottom: 16px;">
+                Espaço para construirmos juntos uma universidade melhor.
+            </p>
+
+            <article class="card demand-card">
+                <div class="demand-header">
+                    <span class="demand-tag">🌱 Sustentabilidade</span>
+                    <span style="font-size: 12px; color: var(--accent);">Ideia Nova</span>
+                </div>
+                
+                <h3 class="demand-title">Horta Comunitária do BCI</h3>
+                <p class="demand-desc">
+                    Proposta de usarmos o espaço atrás do bloco C para uma horta cuidada pelos alunos. Precisamos de apoio para levar à diretoria.
+                </p>
+
+                <div class="progress-stats">
+                    <span id="support-count"><strong>85</strong> interessados</span>
+                    <span>Meta: 100</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar" style="width: 85%;"></div>
+                </div>
+
+                <button class="btn-endorse" id="btn-endorse" onclick="handleEndorse()">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    Quero Participar!
+                </button>
+            </article>
+
+            <article class="card demand-card" style="border-left-color: var(--accent2); opacity: 0.9;">
+                <div class="demand-header">
+                    <span class="demand-tag" style="color: var(--accent2);">🤝 Recepção</span>
+                </div>
+                <h3 class="demand-title">Recepção Unificada 2024</h3>
+                <p class="demand-desc" style="margin-bottom: 8px;">Organizar uma festa sem bebidas alcoólicas para integrar todos os cursos.</p>
+                <div style="font-size: 12px; color: var(--muted);"><strong>200</strong> interessados</div>
+            </article>
+        </section>
+
+        <section id="view-amparo" class="view-section">
+            <h2 style="font-size: 20px; border: none; padding: 0; margin-bottom: 16px;">Rede de Apoio ❤️</h2>
+            
+            <p style="font-size: 13px; color: var(--muted); margin-bottom: 16px;">
+                Ninguém fica para trás. Aqui você encontra suporte emocional, acadêmico e financeiro.
+            </p>
+
+            <div class="grid col-2-mobile">
+                <div class="card feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <strong>Apoio Psicológico</strong>
+                </div>
+                <div class="card feature-card">
+                    <div class="feature-icon">💰</div>
+                    <strong>Auxílios (PAPFE)</strong>
+                </div>
+                <div class="card feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <strong>Segurança</strong>
+                </div>
+                <div class="card feature-card">
+                    <div class="feature-icon">⚖️</div>
+                    <strong>Ouvidoria</strong>
+                </div>
+            </div>
+
+            <div class="card" style="border-left: 4px solid var(--accent2);">
+                <h3 style="font-size:16px; margin:0 0 8px 0;">Programa de Mentoria</h3>
+                <p style="font-size: 13px; color: var(--muted);">Conecte-se com um veterano para tirar dúvidas sobre o curso e a vida na USP.</p>
+                <button class="btn-submit" style="background: var(--card); border: 1px solid var(--stroke); color: var(--text);">Encontrar Mentor</button>
+            </div>
+        </section>
+
+    </main>
+
+    <nav class="bottom-nav">
+        <button class="nav-item active" onclick="switchTab('painel', this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+            Início
+        </button>
+        <button class="nav-item" onclick="switchTab('mapa', this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            Encontros
+        </button>
+        <button class="nav-item" onclick="switchTab('voz', this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+            Projetos
+        </button>
+        <button class="nav-item" onclick="switchTab('amparo', this)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+            Apoio
+        </button>
+    </nav>
+
+    <div id="toast">
+        <div style="background:var(--ok); border-radius:50%; width:20px; height:20px; display:flex; align-items:center; justify-content:center; color:#fff; font-size:12px;">✓</div>
+        <span style="font-size:14px; font-weight:700;">Participação confirmada!</span>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
